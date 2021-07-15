@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <!-- Owl Carousel Css-->
+
   <link rel="stylesheet" href="./resources/css/owl.carousel.min.css">
   <link rel="stylesheet" href="./resources/css/owl.theme.default.css">
   <!-- Font Awesome -->
@@ -15,52 +16,74 @@
   <!-- Bootstrap V5 -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
- <!-- CSS File -->
- <link rel="stylesheet" href="./resources/css/style.css">
+  <!-- CSS File -->
+  <link rel="stylesheet" href="./resources/css/style.css">
 
 </head>
 
 <body>
   <!-- NAVBAR stats here -->
-  <div class="row">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand text-primary col" href="#">Tamim</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <div class="col">
-            <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Projecs</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+  <header class="header-section">
+    <div class="row">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-primary col" href="#">Tamim</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="col">
+              <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projecs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- NAVBAR ends here -->
+
+
+  <!-- Banner Section -->
+  <section class="banner">
+    <div class="single-slide bg" style="background-image: url('./resources/img/slide01.jpg');">
+      <div class="container ">
+        <div class="row ">
+          <div class="col-xl-12 ">
+            <div class="banner-content">
+              <h4>welcome to our agency</h4>
+              <h2>Gain your success with us</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, nobis!</p>
+              <a href="" class="box-btn">Learn More</a>
+              <a href="" class="border-btn">About us</a>
+            </div>
           </div>
         </div>
       </div>
-  </div>
-  </nav>
-  <!-- NAVBAR ends here -->
+    </div>
 
-  <section class="banner h-100">
-    <div class="single-slide bg" style="background-image: url('./resources/img/slide01.jpg');">
+    <!-- <div class="single-slide bg" style="background-image: url('./resources/img/slide02.jpg');">
       <div class="container">
         <div class="row ">
           <div class="col-xl-12 h-100">
@@ -74,15 +97,518 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </section>
 
 
 
 
+  <!-- About Section -->
+  <section class="about pt-100 pb-100" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title">
+            <span>what we do</span>
+            <h4>
+              About us
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="about-content">
+            <h4>Welcome to our agency</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, nemo esse. Ex deleniti quas dolorum autem.
+              Repellendus ut est culpa praesentium tenetur explicabo iste similique?</p>
+            <div class="row">
+              <div class="col-xl-6">
+                <ul>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                </ul>
+              </div>
+              <div class="col-xl-6">
+                <ul>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                  <li><i class="far fa-thumbs-up"></i>Awesome Design</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <a href="" class="box-btn">Read More</a>
+        </div>
+        <div class="col-xl-6">
+          <div class="about-img">
+            <img src="./resources/img/slide02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="about-box">
+            <h4>Mission</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores et deleniti sed doloribus blanditiis
+              officiis in dicta accusamus quod suscipit.</p>
+            <a href="">read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="about-box">
+            <h4>vission</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores et deleniti sed doloribus blanditiis
+              officiis in dicta accusamus quod suscipit.</p>
+            <a href="">read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="about-box">
+            <h4>History</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores et deleniti sed doloribus blanditiis
+              officiis in dicta accusamus quod suscipit.</p>
+            <a href="">read more <i class="fas fa-long-arrow-alt-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Feature Section starts here -->
+  <section class="feat-sec feature-1">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="section-title">
+            <span>creative solition</span>
+            <h4>
+              creative design
+            </h4>
+          </div>
+          <div class="row">
+            <div class="col-6 ">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="feat-sec feature-2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xl-6 ms-auto">
+          <div class="section-title">
+            <span>creative solition</span>
+            <h4>
+              creative design
+            </h4>
+          </div>
+          <div class="row text-center">
+            <div class="col-xl-6 ">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="feat-box">
+                <i class="fas fa-check-circle    "></i>
+                <h4>Awesome Design</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo et esse facilis, aliquid consequatur
+                  voluptatibus!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
+  <section class="service pt-100 pb-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title">
+            <span>what we do</span>
+            <h4>
+              About us
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-globe    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-search    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-globe    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-newspaper    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-globe    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="service-box">
+            <i class="fas fa-globe    "></i>
+            <h4>Web solution</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet repellat cupiditate, cumque at
+              nulla
+              natus ab vero?</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Area Starts here -->
+  <section class="process bg" style="background-image: url(./resources/img/anna-zaro-WnzNQfw1jOU-unsplash.jpg);">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title">
+            <span>what we do</span>
+            <h4>
+              About us
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="process-box">
+            <h4>design <span>1</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="process-box">
+            <h4>development <span>2</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="process-box">
+            <h4>design <span>1</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="process-box">
+            <h4>design <span>1</span></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Project area starts here -->
+  <section class="project pt-100 pb-100">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-12">
+          <div class="section-title">
+            <span>what we do</span>
+            <h4>
+              About us
+            </h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-0">
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project3.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project1.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project2.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project3.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project4.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project5.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project6.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project2.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4">
+          <div class="project-box">
+            <img src="./resources/img/project1.jpg" alt="">
+            <div class="project-ov">
+              <div class="project-content">
+                <i class="fas fa-plus-square    "></i>
+                <h4>project title <span>branding</span></h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="counter-sec">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3">
+          <div class="counter-item">
+            <i class="fas fa-briefcase    "></i>
+            <h4><span>50</span> projects</h4>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="counter-item">
+            <i class="fas fa-award    "></i>
+            <h4><span>50</span> projects</h4>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="counter-item">
+            <i class="fas fa-users    "></i>
+            <h4><span>50</span> projects</h4>
+          </div>
+        </div>
+        <div class="col-xl-3">
+          <div class="counter-item">
+            <i class="fas fa-coffee    "></i>
+            <h4><span>50</span> projects</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Team section starts here -->
+  <section class="team-sec pt-100 pb-100">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <span>what we do</span>
+          <h4>
+            About us
+          </h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, aliquid.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="team-cont">
+            <img src="./resources/img/team1.jpg" alt="">
+            <div class="team-ov">
+              <h4>john doe <span>web developer</span></h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xl-4">
+          <div class="team-cont">
+            <img src="./resources/img/team2.jpg" alt="">
+            <div class="team-ov">
+              <h4>john doe <span>web developer</span></h4>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-xl-4">
+          <div class="team-cont">
+            <img src="./resources/img/team3.jpg" alt="">
+            <div class="team-ov">
+              <h4>john doe <span>web developer</span></h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Video section -->
+  <section class="video-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-7 mx-auto">
+          <a href=""><i class="fas fa-play-circle    "></i></a>
+          <h4> We are workholic</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, facilis laboriosam cupiditate nobis,
+            repudiandae eos et at quo repellendus molestias voluptatem asperiores, culpa atque dignissimos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- js File -->
+  <script src="./resources/js/main.js"></script>
   <!-- Bootstrap js script -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
@@ -93,8 +619,8 @@
   <!-- jQuery cdn -->
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <!-- Owl Carousel -->
-    <script src="./resources/js/owl.carousel.min.js"></script>
+  <!-- Owl Carousel -->
+  <script src="./resources/js/owl.carousel.min.js"></script>
 </body>
 
 </html>

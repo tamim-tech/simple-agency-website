@@ -14,6 +14,21 @@ html {
     height: 100%;
 }
 
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h4,
+h6,
+p,
+span {
+    position: relative;
+}
+
 .h-100 {
     height: 100%;
 }
@@ -28,6 +43,10 @@ ul {
     list-style: none;
 }
 
+.w-100 {
+    width: 100%
+}
+
 .bg {
     background-size: cover;
     background-position: center;
@@ -40,9 +59,11 @@ ul {
     position: absolute;
     width: 100%;
     height: 100%;
+    top: 0;
     left: 0;
     right: 0;
-    background-color: #333333c4;
+    opacity: 0.6;
+    background-color: #333333;
 
 }
 
@@ -68,7 +89,58 @@ ul {
 }
 
 
+.pt-100 {
+    padding-top: 100px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
 /* Basic Css ends here*/
+
+/* Section title Css stars here */
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.section-title span {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.section-title h4 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.section-title h4::after {
+    position: absolute;
+    content: "";
+    background-color: tomato;
+    width: 60px;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+/* Section title Css ends here */
+
+/* Navbar Css Starts here */
+
+.navbar-brand {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/* Navbar Css ends here */
+
 
 /* Banner Css Starts here */
 .single-slide {
@@ -96,8 +168,339 @@ ul {
     font-weight: 700;
 }
 
-.banner-content a{
-    margin:5px;
+.banner-content a {
+    margin: 5px;
 }
 
+
 /* Banner Css Ends here */
+
+/* About section css starts here */
+.about-content h4 {
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.about-content ul {
+    margin-bottom: 25px;
+}
+
+.about-img {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.about-img::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #e16038;
+    right: -10px;
+    bottom: -10px;
+    z-index: -1;
+}
+
+.about-box {
+    margin-top: 20px;
+}
+
+/* About section css starts here */
+
+
+/* Feature area css starts here */
+.feat-sec {
+    position: relative;
+    padding: 80px 20px;
+}
+
+.feat-box {
+    margin-bottom: 40px;
+}
+
+.feat-box i {
+    font-size: 25px;
+    margin-bottom: 18px;
+}
+
+.feat-box h4 {
+    font-size: 27px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.feature-1::after,
+.feature-2::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 50%;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-1::before,
+.feature-2::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 100%;
+    top: 0;
+    background-color: #333;
+    z-index: 2;
+    opacity: .8;
+}
+
+
+.feature-1::after {
+    background-image: url(../img/slide01.jpg);
+    right: 0;
+}
+
+.feature-1::before {
+    right: 0;
+}
+
+.feature-2::after {
+    background-image: url(../img/slide01.jpg);
+    left: 0;
+}
+
+.feature-2::before {
+    left: 0;
+}
+
+/* Feature area css ends here */
+
+
+
+/* Service area starts here */
+.service-box {
+    box-shadow: 0px 15px 40px #efefef;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.service-box h4 {
+    text-transform: capitalize;
+    margin: 20px 0;
+}
+
+.service-box i {
+    font-size: 24px;
+}
+
+/* Service area ends here */
+
+
+/* process area css starts here */
+section.process {
+    color: #fff;
+    padding: 60px 0;
+}
+
+.process-box h4 {
+    background-color: #e16038;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 19px;
+    position: relative;
+}
+
+.process-box h4 {
+    background-color: #e16038;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: capitalize;
+    font-size: 19px;
+    position: relative;
+}
+
+.process-box h4 span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #cb5910;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.process-box p {
+    text-align: center;
+}
+
+/* process area css ends here */
+
+
+
+/* Project area sectiion starts here */
+.project-box {
+    position: relative;
+}
+
+
+.project-box img {
+    width: 100%;
+}
+
+
+.project-ov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.project-ov::before {
+    position: absolute;
+    top: 0;
+    content: "";
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333;
+    opacity: .8;
+}
+
+
+.project-content {
+    color: #fff;
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.project-content i {
+    font-size: 26px;
+}
+
+.project-content h4 {
+    font-size: 27px;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.project-content h4 span {
+    display: block;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+
+.project-box:hover .project-ov {
+    transform: scale(1);
+}
+
+
+/* Project area section ends here */
+
+
+/* Counter section starts here */
+
+section.counter-sec {
+    background-color: #333;
+    padding: 80px 0;
+}
+
+
+
+.counter-item {
+    color: #fff;
+    text-align: center;
+}
+
+.counter-item i {
+    font-size: 20px;
+}
+
+.counter-item h4 {
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.counter-item h4 span {
+    display: block;
+    font-size: 38px;
+}
+
+
+/* Counter section ends here */
+
+
+/* Team section starts here */
+.team-cont img {
+    width: 100%;
+}
+
+.team-cont {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-ov {
+    position: absolute;
+    background-color: #333;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    transition: .3s;
+    left: 0;
+    bottom: -112px;
+}
+
+.team-ov h4 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.team-ov 
+h4 span {
+    display: block;
+    font-style: italic;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.team-cont:hover .team-ov {
+    bottom: 0;
+}
+/* Team section ends here */
+
+
+/* Video area starts here */
+section.video-area {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+
+section.video-area a {
+    color: #fff;
+    font-size: 42px;
+}
+
+section.video-area h4 {
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+
+/* Video area ends here */
