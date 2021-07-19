@@ -467,8 +467,7 @@ section.counter-sec {
     text-transform: capitalize;
 }
 
-.team-ov 
-h4 span {
+.team-ov h4 span {
     display: block;
     font-style: italic;
     font-size: 15px;
@@ -479,6 +478,7 @@ h4 span {
 .team-cont:hover .team-ov {
     bottom: 0;
 }
+
 /* Team section ends here */
 
 
@@ -504,3 +504,42 @@ section.video-area h4 {
 
 
 /* Video area ends here */
+
+/* Prices area starts here */
+.price-box {
+    text-align: center;
+    padding: 20px 30px;
+    box-shadow: 0 15px 40px #eaeaea;
+}
+
+.price-box span {
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.price-box h4 {
+    font-size: 35px;
+    background-color: #fafafa;
+    padding: 10px;
+    margin: 20px 0;
+    font-weight: 600;
+}
+
+.price-box h4 span {
+    font-size: 15px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.price-box ul li {
+    margin-bottom: 12px;
+}
+
+.price-box ul {
+    margin-bottom: 25px;
+}
+
+/* Prices area ends here */
+
