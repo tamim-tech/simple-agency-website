@@ -543,3 +543,153 @@ section.video-area h4 {
 
 /* Prices area ends here */
 
+/* Blog css Starts here */
+.blog-img img {
+    width: 100%;
+}
+
+.blog-meta {
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 15px 40px #eaeaea;
+    margin: 0 40px;
+    margin-top: -22px;
+    z-index: 1;
+    position: relative;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.blog-meta a {
+    color: #333;
+    margin: 0 7px;
+}
+
+.blog-content {
+    margin-top: 31px;
+}
+
+.blog-content h4 {
+    border-bottom: 1px dashed #eee;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.blog-content a {
+    color: #333;
+    text-transform: capitalize;
+}
+
+/* Blog css ends here */
+
+
+/* Subscribe css starts here */
+section.subscribe-area {
+    padding: 60px 0;
+}
+
+section.subscribe-area form {
+    position: relative;
+}
+
+section.subscribe-area form input {
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+}
+
+section.subscribe-area form input[type=submit] {
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: auto;
+    color: #fff;
+    background-color: #e16038;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+/* Subscribe css ends here */
+
+
+/* Contact css strats here */
+.single-contact {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.single-contact i {
+    background-color: #e16038;
+    color: #fff;
+    font-size: 24px;
+    position: absolute;
+    height: 52px;
+    width: 60px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.single-contact h4 {
+    padding-left: 75px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.single-contact h4 span {
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.single-contact:last-child {
+    border-bottom: 0;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 7px;
+    margin-bottom: 22px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #e16038;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px;
+}
+
+
+
+
+/* Contact css ends here */
+
+/* Footer css Stats here */
+footer.footer-area {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer.footer-area a {
+    color: #fff;
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+footer.footer-area p {
+    margin-bottom: 0;
+}
+
+/* Footer css ends here */
